@@ -135,7 +135,7 @@ function checkGameOver(){
             break;
     }
     for(let i =1; i < snake.length; i+=1){
-        if(snake[i].x == snake[0].x && snake[i].y == snake[0].x){
+        if(snake[i].x == snake[0].x && snake[i].y == snake[0].y){
             running = false;
         }
     }
